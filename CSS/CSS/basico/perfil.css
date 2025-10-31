@@ -1,0 +1,129 @@
+body { /*dandole estilo a el cuerpo de la pagina*/
+    background-color: #141413; /*a todo lo que seria el fondo de la pagina le coloque ese color*/
+    font-family: "Roboto Serif", serif; /*le coloque esa feunte de letra a toda la pagina*/
+    color: white; /*letras/fuentes de color blancas*/
+    text-align: center; /*centre el texto al centro de la pagina*/
+}
+
+header{ /* estilo a el encabezado del perfil*/
+    border-bottom: solid rgb(54, 54, 54); /*le coloque un borde solo a la parte de abajo del encabezado*/
+    padding: 15px; /*separe el contenido del borde*/
+    margin-bottom: 40px; /*le di un margen solo a la parte de abajo, para separar el borde del header del de el main*/
+}
+
+img{/*foto de perfil*/
+    border-radius: 50%;/*redondie el borde de la foto como un circulo*/
+
+}
+
+h1{/*titulo, nombre del perfil */
+    color: #D4833F; /*le coloque al titulo color*/
+    font-size: 50px; /*cambie el tamaño del titulo a 50px*/
+}
+
+.subtitulo { /*a lo que se dedica, como una descripcion */
+    color: #F1A667;/*le cambie color*/
+    font-size: 24px;/*el tamaño se lo cambie a 20px*/
+    font-weight: 500; /*el grosor del subtitulo es de 500*/
+}
+
+main{/*desarrollo del perfil*/
+    font-weight:100;/*grosor mas fino de 100*/
+    padding: 15px;/*la distancia del contenido a la del borde es de 15px*/
+    border: 2px solid rgb(54, 54, 54); /*borde de 2px , solido como sin interferencias, y de ese color*/
+    background-color:black; /*fondo del main de color negro*/
+    width: 450px; /*el ancho del main*/
+    margin: auto; /*el margen lo coloque automatico*/
+    box-shadow: -1px 1px 20px 5px #1b140ea4;/*le coloque como una sobra a la "caja", el main, para que sobresalga*/
+}
+
+#informacion{ /*primer section*/
+    border: 2px solid rgb(54, 54, 54);/*le coloque borde a la primera seccion*/
+    padding: 15px;/*separe el contenido del borde de la seccion*/
+}
+
+.perfil{ /*titulo perfil*/
+  font-size: medium; /*cambie el tamaño de la fuente del titulo del main*/
+}
+
+.info-perfil{ /*texto de informacion de perfil*/
+    text-align: center; /*centre la informacion, texto*/
+    font-size: small;/*la fuente la hice mas pequeña*/
+    word-spacing: 2px;/*separe las palabras en 1px*/
+    letter-spacing: 1px;/*hice un espacio de 32px a las letras*/
+    color: rgb(183, 182, 182);/*le coloque otro color a el parrafo*/
+}
+
+#parte-info-personal{ /*info personal, años activos, etc*/
+    padding: 15px;/*separe el contenidop de esta parte de lso bordes, para que no este pegado*/
+
+}
+
+.enlace{/*enlace de pagina web*/
+    text-decoration: none;/*con esta propiedad, le saque la decoracion que tenia, que seria la linea abajo del texto*/
+    color: rgb(116, 116, 116);/*cambie el color del enlace*/
+}
+
+#contacto{/*segundo section*/
+    border: 2px solid rgb(54, 54, 54);/*le coloque borde al segundo section*/
+}
+
+legend{/*titulo del formulario*/
+    font-weight: 900;/*el grosor esta en maximo*/
+}
+input[type="text"],input[type="email"],textarea{/*a los campos que se tienen que completar para  */
+    background-color: #444444;/*les cambie el color de fuente*/
+    border: none;/*les quite el borde*/
+    border-radius: 5px;/*les redondie los bordes*/
+    padding: 5px;/*hice distancia entre el texto y el borde*/
+    width: 100%; /*para que el ancho sea mas grande*/
+}
+
+.seleccionar{/*campo de opciones*/
+    color: #8d8787;/*cambie el color del contenido*/
+    background-color: #141413;/*el color de fondo lo cambie*/
+    border: none;/*le quite el borde*/
+    border-radius: 5px;/*redondie su borde*/
+    padding: 5px;/*separe el texto del borde*/
+}
+option{/*son las opciones*/
+    color: #494949;/*cambie el color de las opciones*/
+}
+
+p{/*todos los parrafos*/
+    font-size: small;/*el tamaño de fuente mas pequeño*/
+}
+.opciones{/*opciones*/
+    font-size: small;/*el tamaño de fuente*/
+    padding: 15px;/*distancia de contenido*/
+}
+
+fieldset{/*bloque de agrupàcion de lo que esta dentro del formulario*/
+    border: none;/*quite el borde*/
+  
+}
+#btm-contacto{/*boton de contacto*/
+    background-color: #F1A667;/*cambie color de fondo*/
+}
+#btm-portafolio{/*boton de portafolio*/
+    background-color: #D4833F;/*color de fondo*/
+}
+.btn{ /*botones*/
+    border: none;/*quite borde*/
+    border-radius: 5px;/*reodndie el borde*/
+    padding: 5px;/*distancia de contenido del borde*/
+    font-weight: 700;/*grosor de contenido*/
+    color: #fff;/*color de fuente*/
+    
+}
+.boton{ /*div donde tengo los button*/
+    border: 2px solid rgb(0, 0, 0);/*borde*/
+    padding: 15px;/*distancia de contenido del borde*/
+    border-top: 2px dashed rgb(54, 54, 54);/*coloque un borde, pero solo el lado superior*/
+}
+div{/*todos los div*/
+    padding: 5px;/*distancia del borde al contenido*/
+}
+form{/*lo que agrupa el formulario */
+    padding: 25px;/*distancia de su borde al contenido*/
+}

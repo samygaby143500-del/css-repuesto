@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propiedades de texto en CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Poiret+One&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #ffffff;
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .texto-centrado {
+            text-align: center;
+        }
+
+        .texto-derecha {
+            text-align: right;
+        }
+
+        .texto-justificado {
+            text-align: justify;
+        }
+
+        .deco-subrayado {
+            text-decoration: underline;
+        }
+
+        .deco-superior {
+            text-decoration: overline;
+        }
+
+        .deco-tachado {
+            text-decoration: line-through;
+        }
+
+        .deco-enlace {
+            text-decoration: none;
+            color: rgb(72, 59, 128);
+        }
+
+        .texto-min {
+            text-transform: lowercase;
+        }
+
+        .texto-mayu {
+            text-transform: uppercase;
+        }
+
+        .texto-capital {
+            text-transform: capitalize;
+        }
+
+        .texto-separado {
+            letter-spacing: 5px;
+
+        }
+
+        .palabras-separadas {
+            word-spacing: 20px;
+        }
+
+        .sect {
+            /*border: 2px solid #c1a4cf;*/
+            /*agrega a los 4 lados un borde de 2px con liea continua*/
+            border-radius: 10px;
+            /*bordes redondeados*/
+            padding: 15px;
+            /*agrga un espacio en borde y el contenido*/
+            margin-bottom: 20px;
+            /*/agrega un margen inferior o todos los sectios*/
+        }
+
+        .section3 {
+            background-color: #D1C1D9;
+        }
+
+        .section2 {
+            background-color: #c1a9cc;
+        }
+
+        .section1 {
+            background-color: #D1C1D9;
+        }
+
+        h1 {
+            color: #543d5f;
+            background-color: #c1a9cc;
+            text-align: center;
+            
+        }
+        h2{
+            color: #2b1c31;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Propiedades de texto en CSS
+        </h1>
+    </header>
+    <main>
+        <section class="section1 sect">
+            <h2>Alinear texto: text-align</h2>
+            <p>
+                texto alineado a la izquierda
+            </p>
+            <p class="texto-centrado">
+                texto centrado
+            </p>
+            <p class="texto-derecha">
+                texto alineado a la derecha
+            </p>
+            <p class="texto-justificado">
+                texto justificado: Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quae ea sed et.
+                Perspiciatis,
+                nesciunt dolor beatae dicta blanditiis natus dolorum in et amet maiores tempore veniam eos, consectetur
+                culpa.
+                Quis architecto cum qui, itaque perspiciatis dignissimos praesentium quaerat ipsam reprehenderit optio
+                neque possimus iste.
+                Nihil omnis vitae expedita libero maxime reprehenderit reiciendis ex, perferendis, vero cupiditate
+                accusantium atque quasi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus doloribus
+                fugit
+                atque provident debitis, soluta dolorum quo optio exercitationem, dignissimos quidem labore accusamus
+                dolore illum
+                reiciendis id, numquam illo magnam.
+            </p>
+        </section>
+        <section class="section2 sect">
+            <h2>Decoracion de texto: text-decoration</h2>
+            <p class="deco-subrayado">texto con subrayado</p>
+            <p class="deco-superior">texto con linea superior</p>
+            <p class="deco-tachado">texto tachado</p>
+            <p><a href="" class="deco-enlace">CET Nº30</a></p>
+        </section>
+        <section class="section3 sect">
+            <h2>Transformacion del texto: text-transform</h2>
+            <p class="texto-min">TEXTO EN MINUSCULA</p>
+            <p class="texto-mayu">texto en mayuscula</p>
+            <p class="texto-capital">letra capital</p>
+            <p class="texto-separado">
+                espaciado entre los carcateres
+            </p>
+            <p class="palabras-separadas">
+                espaciado entre palabras
+            </p>
+        </section>
+    </main>
+
+</body>
+
+</html>

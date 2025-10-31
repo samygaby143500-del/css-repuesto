@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(134, 93, 93);
+}
+
+/*MAIN*/
+section {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    background-color: white;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+div {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+    gap: 15px;  
+  
+}
+.item-ing{
+    display: flex;
+    gap: 20px;
+}
+
+img {
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+    gap: 15px;
+    width: "25px"
+}

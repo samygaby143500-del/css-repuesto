@@ -1,0 +1,13 @@
+body{
+    font-family: "Google Sans Code", monospace;
+}
+section{
+    width: 250px;
+}
+button{
+    color: #fff;
+    background-color: crimson;
+    border: none;
+    padding: 8px;
+    font-weight: 800;
+}

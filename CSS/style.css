@@ -1,0 +1,57 @@
+/*
+Es un comentario de CSS 
+*/
+
+body {
+    background-color: #E7D6DA;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background-color: #E9CBD3;
+
+}
+
+h1 {
+    color: #8F495C;
+    text-decoration: underline;
+    /*permite decorar el texto, en este caso subrayado*/
+    text-align: center;
+    font-size: 1.8em;
+    /*tamaño de la fuente*/
+    font-style: italic;
+    /* Estilos de la fuente, por ejemplo italica */
+    font-weight: 100;
+    /* grosor del contorno de la fuente de 100 (min) hasta 900 (max) */
+
+}
+
+span {
+    color: #570E22;
+}
+
+main {
+    background-color: #AB6E7E;
+}
+
+h2 {
+    color: #3b0614;
+    background-color: #d6a8b4;
+    font-size: 1em;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+/*utilizo un selector por id, es decir, nombrando el id del elemento particular que quiero queb se cambie el diseño*/
+#titulo_sec {
+    color: #C81344;
+}
+
+p {
+    color: #C81344;
+}
+
+/*para seleccionar elementos de html que deban tener las mismas propiedades debemos usar clases. lasclases se identifican en css con un punto*/
+.parrafo {
+    color: black;
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+            }
+            header{
+                font-family: AdihausDIN, Helvetica, Arial, Helvetica, sans-serif;
+            }
+            .section-anuncio{
+                background-color: black;
+                color: aliceblue;
+                display: flex;
+                justify-content: center;
+                font-size: small;
+                font-weight: 800;
+                margin: none;
+            }
+            .section-ayuda{
+                display: flex;
+                justify-content: end;
+                 gap: 15px;
+                font-size: 12px;
+                padding-right: 25px;
+                padding-top: 10px
+            }
+            .section-ayuda a{
+                text-decoration: none;
+                color: black;
+            }
+            .section-opciones{
+                display: flex;
+                justify-content: center;
+                justify-content: space-between;
+                align-items: center;
+                padding-right: 25px;
+                padding-left: 25px;
+            }
+            .section-opciones ul{
+                display: flex;
+                gap: 15px;
+                list-style: none;
+                padding: 0;
+            }
+             .section-opciones a {
+                 text-decoration: none;
+                color: black;
+            }
+            .section-opciones .formulario{
+                display: flex;
+                justify-content: end;
+            }
+            .section-opciones .li-rojo{
+                color:rgb(216, 67, 67);
+                font-weight: 600;
+            }
+            .section-opciones .li-finito{
+                font-weight: 300;
+            }
+            .section-opciones li{
+                font-weight: 600;
+            }
+            .formulario .alinear-buscador{
+                display: flex;
+                align-items: center;
+                background-color: #E9ECEF;
+                padding: 0;
+                margin: 0;
+                border: none;
+                border-radius: 2px;
+                padding: 5px;
+            }
+            #buscar{
+                border: none;
+                background-color: #e9ecef00;
+            }
+            .iconos span{
+              padding: 5px;  
+            }
+            .ancho-minimo{
+                min-width: 400px;
+            }
+        
+        </style>
+</head>
+
+<body>
+
+    <header>
+        <!--seccion del parrafo-->
+        <section class="section-anuncio">
+            <p>💸HASTA 6 CUOTAS SIN INTERES💸</p>
+        </section>
+        <!--seccion de ayuda-->
+        <section class="section-ayuda">
+            <a href="">ayuda</a>
+            <a href="">pedidos y devoluciones</a>
+            <a href="">gift cards</a>
+            <a href="">unite al club</a>
+        </section>
+        <!--seccion de listas,formulario,img-->
+        <section class="section-opciones">
+            <div class="ancho-minimo">
+                <a href=""><img src="../assets/adidas-logo.jpg" alt="" width="100px"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="">CALZADO</a></li>
+                    <li><a href="">MUJER</a></li>
+                    <li><a href="">HOMBRE</a></li>
+                    <li><a href="">NIÑOS</a></li>
+                    <li ><a href="" class="li-finito">DEPORTE</a></li>
+                    <li ><a href="" class="li-rojo">OUTLET</a></li>
+                    <li ><a href="" class="li-finito">MUNDO ADIDAS</a></li>
+                </ul>
+            </nav>
+            <div class="formulario ancho-minimo">
+                <form action="" class="alinear-buscador">
+                    <input type="text" name="buscar" id="buscar" placeholder="Buscar" >
+                    <span class="material-symbols-outlined">
+                        search
+                    </span>
+                </form>
+                <div class="iconos">
+                    <span class="material-symbols-outlined">
+                        person
+                    </span>
+                    <span class="material-symbols-outlined">
+                        favorite
+                    </span>
+                    <span class="material-symbols-outlined">
+                        shopping_bag
+                    </span>
+                </div>
+            </div>
+        </section>
+    </header>
+
+
+</body>
+
+</html>
