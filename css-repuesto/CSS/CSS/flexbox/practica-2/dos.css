@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(21, 21, 29);
+    font-family: "Google Sans Code", monospace;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container section {
+    color: aliceblue;
+    margin: 0;
+    padding: 50px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+.pais {
+    color: rgb(197, 197, 197);
+    font-size: medium;
+    font-weight: 900;
+    text-align: center;
+    height: 40px;
+}
+
+.pais-saudi {
+    color: rgb(197, 197, 197);
+    font-size: medium;
+    font-weight: 900;
+    text-align: center;
+    height: 50px;
+    margin-top: 5px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+}
+
+.mes {
+    color: rgb(136, 136, 136);
+    font-size: smaller;
+    font-weight: 900;
+    text-align: center;
+
+}
+
+.seccion-uno,
+.seccion-dos,
+.seccion-tres,
+.seccion-cuatro {
+    border-right: 2px solid rgb(91, 91, 91);
+}

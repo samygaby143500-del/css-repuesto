@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Park Ji-hoon</title>
+    <link rel="stylesheet" href="perfil.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!--estoy vinculando el css con el html-->
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poiret+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
+        rel="stylesheet"> <!--vincule desde google font un tipo de letra, que se vincule desde html y css-->
+</head>
+
+<body>
+    <header><!--abri lo que seria el encabezado de la pagina-->
+
+        <div><!--div para que la imagen quede separada de lo que siga, y lo mande para abajo-->
+
+            <img src="/basico/assets/img/jihoon.jpg" alt="" width="300px">
+            <!--coloque una imagen de la persona del perfil-->
+
+        </div>
+        <div>
+
+            <h1>PARK JI HOON</h1> <!--con h1 coloque el nombre para que sea como un titulo-->
+
+            <h3 class="subtitulo">ACTOR Y CANTANTE</h3>
+            <!--con h3 para que sea un subtitulo, no con tanta importancia que el h2-->
+
+        </div>
+
+    </header>
+
+    <main><!--abri el main, donde iria el desarrollo del perfil-->
+
+        <section id="informacion">
+            <!--identifique esta seccion con un id para poder colocarle un estilo solo a esta seccion y no a las dos-->
+            <div><!--un div para agrupar esta parte, ya que la informacion es relacionada-->
+
+                <h2 class="perfil">PERFIL</h2>
+                <!--subtitulo que con una clase lo clasifique, para que los otros h2 no se afecten con las propiedades de este-->
+
+                <p class="info-perfil"><!--la clase para solo afectar con las propiedades a este parrafo-->
+                    Es un cantante y actor surcoreano. Inicialmente, fue
+                    actor infantil y modelo publicitario. Saltó a la fama
+                    a principios de 2017 tras obtener el segundo puesto
+                    en la segunda temporada del reality show Produce.
+                </p>
+            </div>
+
+            <div id="parte-info-personal"><!--identificador de este div-->
+
+                <h3>INFORMACION PERSONAL</h3><!--un texto importante pero no tanto para ser titulo ni subtitulo-->
+
+                <p><strong>Años activo: </strong> 2017-presente </p><!--parrafo sobre info personal-->
+
+                <p><strong>Residencia: </strong> Seúl, Corea del Sur</p><!--parrafo sobre info personal-->
+
+                <p><strong>pagina web: </strong> <a href="http://park-jihoon.co.kr/"
+                        class="enlace">park-jihoon.co.kr</a></p>
+                <!--coloque la pagina web con un ancla, y le coloque una clase para poder colocarle estilo a ese enlace -->
+
+            </div>
+        </section>
+
+        <section class="contacto">
+            <!--coloque esta section, porque quiero que sea una distinta a la otra, y tambien la clasifique-->
+
+            <form action=""><!--abri form para poder hacer un formulario-->
+
+                <fieldset><!--fieldest para que todo lo que este dentro se agrupe como un tema-->
+                    <legend>CONTACTO FANDOM</legend><!--es el titulo de esa agrupacion, del formulario en este caso-->
+
+                    <div>
+                        <label for="nombre"></label><!--como asociarle un nombre al campo que se tiene que completar-->
+                        <input type="text" name="nombre" id="nombre" placeholder="Nombre de pila*">
+                    </div><!--coloque un campo para que ingresen su nombre, y le coloque un tipo, un nombre, id, y placeholder para que me muestre lo que tiene que hacer como ejemplo dentro del mismo campo-->
+
+                    <div>
+                        <label for="apellido"></label>
+                        <input type="text" name="apellido" id="apellido" placeholder="Apellido*">
+                    </div><!--coloque un campo para que ingresen su apellido-->
+
+                    <div>
+                        <label for="correo"></label>
+                        <input type="email" name="correo" id="correo" placeholder="Direccion de correo electronico*">
+                    </div><!--coloque un campo para que ingresen su correo-->
+
+                    <div>
+                        <label for="compañia"></label>
+                        <input type="text" name="compañia" id="compañia" placeholder="compañia*" required>
+                    </div><!--coloque un campo para que ingresen la compañia, de forma obligatoria con el required-->
+
+                    <div>
+                        <label for="interes"></label>
+                        <textarea name="interes" id="interes" placeholder="¿Cual es tu interes?*"></textarea>
+                    </div><!--coloque un campo para que ingresen el interes por el que se contactan-->
+
+                    <div>
+                        <label for="quien"></label>
+                        <select name="quien" id="quien" class="seleccionar">
+                            <option value="publicidad">Publicidad y asociaciones</option>
+                            <option value="Equipo">Equipo Wiki/comunidad</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div><!--coloque un campo para que seleccionen la opcion de a quien desean dirigirse a t5raves de select para selccionar y option que serian las opciones-->
+
+                    <div class="opciones">
+                        <label for="acepto">Acepto recibir comunidades de Fandom</label>
+                        <input type="checkbox" name="acepto" id="acepto">
+                    </div><!--coloque un campo para que acepten o no lo que dice-->
+
+                    <div class="opciones">
+                        <label for="robot"><strong>No soy un robot</strong></label>
+                        <input type="checkbox" name="robot" id="robot">
+                    </div><!--coloque un campo para la prueba de no soy un robot-->
+
+                    <div class="boton"><!--clase solo para este div-->
+                        <button id="btm-contacto" class="btn">Contactar</button><!--una clase personal, y otra para relacionarse con el otro button-->
+                        <button type="submit" id="btm-portafolio" class="btn">Portafolio</button>
+                    </div><!--coloque un campo de botones, de enviar o portafolio-->
+
+                </fieldset>
+
+            </form>
+
+        </section>
+    </main>
+</body>
+
+</html>
+
+<!--
+    yyyyyyyyy
+-->

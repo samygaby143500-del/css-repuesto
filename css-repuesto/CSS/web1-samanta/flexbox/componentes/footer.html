@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=TASA+Orbiter:wght@400..800&family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        .container {
+            display: flex;
+            max-width: 1300px;
+            margin: 0 auto;
+            font-family: "Roboto", sans-serif;
+            gap: 30px;
+            justify-content: center;
+        }
+        h4{
+            font-size: 0.7em;
+            margin-bottom: 0;
+        }
+
+        .sec-nuestro .subtitulo-nuestro {
+            font-size: 11px;
+            font-weight: 400;
+            color: rgba(99, 99, 99, 0.863);
+        }
+
+        .sec-nuestro #email {
+            background-color: none;
+            border: 1px solid rgba(180, 180, 180, 0.801);
+            padding: 15px;
+           
+        }
+
+        .sec-nuestro #btn-suscribir {
+            background-color: rgba(255, 31, 31, 0.877);
+            color: rgba(255, 255, 255, 0.795);
+            padding: 15px;
+            margin: 15px;
+            margin-left: 0;
+            border: none;
+            font-size: 12px;
+        }
+
+        .sec-nuestro .redes img {
+            padding: 8px;
+            border: 1px solid rgba(107, 107, 107, 0.548);
+            width: 12px;
+            border-radius: 30px;
+        }
+        .sec-nuestro .contactos p{
+            line-height: 23px;
+            font-size: 13px;
+            font-weight: 400;
+        }
+        ul{
+            padding: 0;
+        }
+        li, a{
+            list-style: none;
+            text-decoration: none;
+            color: rgba(0, 0, 0, 0.788);
+            line-height: 28px;
+            font-weight: 400;
+            font-size: 13px;
+        }
+
+        .sec-legales .btn-legales{
+            background-color: rgba(0, 0, 0, 0);
+            border: 1px solid rgba(145, 145, 145, 0.479);
+            border-radius: 25px;
+            color:rgba(122, 122, 122, 0.781) ;
+            padding: 4px 10px;
+            font-size: 9px;
+            display: flex;
+            justify-content: center;
+            width: 75%;
+
+        }
+        .sec-consumidor .texto{
+            font-size: 11px;
+            color: rgba(99, 99, 99, 0.863);
+        }
+        .sec-consumidor a{
+            font-size: 11px;
+            color: rgba(99, 99, 99, 0.863);
+            text-decoration:underline;
+        }
+        .sec-consumidor .imagen{
+            width: 50px;
+        }
+        .sec-nuestro{
+            width: 16%;
+        }
+        .sec-consumidor{
+            width: 20%;
+        }
+        .sec-consumidor .texto-ancho{
+            width: 50%;
+              display: flex;
+              padding: 15px 0px;
+            gap: 15px;
+        }
+
+       
+    </style>
+
+</head>
+
+<body>
+
+    <footer>
+        <nav class="container">
+            <section class="sec-nuestro sec">
+                <h4>NUESTRO NEWSLETTER</h4>
+                <p class="subtitulo-nuestro">Recibi ofertas y promociones</p>
+                <div class="cont-email">
+                    <form action="">
+                        <input type="email" name="email" id="email" placeholder="Ingrese su e-mail">
+                        <button id="btn-suscribir">SUSCRIBIRME</button>
+                    </form>
+                </div>
+                <div class="redes">
+                    <a href=""><img src="../assets/facebook.png" alt=""></a>
+                    <a href=""><img src="../assets/instagram.png" alt=""></a>
+                    <a href=""><img src="../assets/linkedin.png" alt=""></a>
+                    <a href=""><img src="../assets/tiktok-circle.png" alt=""></a>
+                    <a href=""><img src="../assets/twitter-alt.png" alt=""></a>
+                    <a href=""><img src="../assets/youtube.png" alt=""></a>
+                </div>
+                <div class="contactos">
+                    <p>
+                        Venta Telefonica: <br>
+                        <strong>0810 222 6253</strong> <br>
+                        Lunes a Viernes de 08:30 a 20:00 <br>
+                        Sabados-Feriados: 09:00 a 17:00
+                    </p>
+                </div>
+            </section>
+            <section class="sec-categorias sec">
+                <h4>CATEGORIAS</h4>
+                <div >
+                    <ul>
+                        <li><a href="">Celulares</a></li>
+                        <li><a href="">TV & Video</a></li>
+                        <li><a href="">Cimaizacion</a></li>
+                        <li><a href="">Electrodomesicos</a></li>
+                        <li><a href="">Tecnologia</a></li>
+                        <li><a href="">Salud, Belleza y Fitness</a></li>
+                        <li><a href="">Casa & Jardin</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="sec-buscado sec" >
+                <h4>LO MAS BUSCADO</h4>
+                <div>
+                    <ul>
+                        <li><a href="">Aires acondicionados</a></li>
+                        <li><a href="">Ventiladores</a></li>
+                        <li><a href="">Celulares</a></li>
+                        <li><a href="">Smart TV</a></li>
+                        <li><a href="">Heladeras</a></li>
+                        <li><a href="">Lavarropas</a></li>
+                        <li><a href="">Cocinas</a></li>
+                        <li><a href="">Motocicletas</a></li>
+                        <li><a href="">Freezers</a></li>
+                        <li><a href="">Termotanques</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="sec-ofertas sec">
+                <h4>OFERTAS Y EVENTOS</h4>
+                <div>
+                    <ul>
+                        <li><a href="">Hot Sale</a></li>
+                        <li><a href="">Black Friday</a></li>
+                        <li><a href="">Cyber Monday</a></li>
+                        <li><a href="">Navidad</a></li>
+                        <li><a href="">Reyes Magos</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="sec-inst sec">
+                <h4>INSTITUCIONAL</h4>
+                <div>
+                    <ul>
+                        <li><a href="">Empresa</a></li>
+                        <li><a href="">Credito Personal</a></li>
+                        <li><a href="">Naldo Plus</a></li>
+                        <li><a href="">Venta Corporativa</a></li>
+                        <li><a href="">Trabaja en Naldo</a></li>
+                        <li><a href="">Contacto</a></li>
+                        <li><a href="">Blogs</a></li>
+                        <li><a href="">Naldo Fan</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="sec-legales sec">
+                <h4>LEGALES</h4>
+                <div>
+                    <ul>
+                        <li><a href="">Terminos y Condiciones</a></li>
+                        <li><a href="">Politicas de Privacidad</a></li>
+                        <li><a href="">Politicas de Cambio</a></li>
+                        <li><a href="">Libro de Quejas</a></li>
+                        <li><a href="">Usuario Financiero</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <button class="btn-legales">BOTON DE ARREPENTIMIENTO</button>
+                </div>
+            </section>
+            <section class="sec-consumidor sec">
+                <h4>CONSUMIDOR</h4>
+                <div class="texto-ancho">
+                    <p class="texto">Defensa de las y los consumidores. Para reclamos ingrese <a href="">aqui</a></p>
+                </div>
+                <div class="texto-ancho">
+                    <img src="../assets/datafiscal.jpg" alt="" class="imagen">
+                    <img src="../assets/selloargentina.avif" alt="" class="imagen">
+                </div>
+            </section>
+        </nav>
+    </footer>
+
+</body>
+
+</html>

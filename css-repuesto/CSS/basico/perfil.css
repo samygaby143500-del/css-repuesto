@@ -1,0 +1,131 @@
+body { /*dandole estilo a el cuerpo de la pagina*/
+    background-color: #141413; /*a todo lo que seria el fondo de la pagina le coloque ese color*/
+    font-family: "Roboto Serif", serif; /*le coloque esa feunte de letra a toda la pagina*/
+    color: white; /*letras/fuentes de color blancas*/
+    text-align: center; /*centre el texto al centro de la pagina*/
+}
+
+header{ /* estilo a el encabezado del perfil*/
+    border-bottom: solid rgb(54, 54, 54); /*le coloque un borde solo a la parte de abajo del encabezado*/
+    padding: 15px; /*separe el contenido del borde*/
+    margin-bottom: 40px; /*le di un margen solo a la parte de abajo, para separar el borde del header del de el main*/
+}
+
+img{/*foto de perfil*/
+    border-radius: 50%;/*redondie el borde de la foto como un circulo*/
+
+}
+
+h1{/*titulo, nombre del perfil */
+    color: #D4833F; /*le coloque al titulo color*/
+    font-size: 50px; /*cambie el tamaño del titulo a 50px*/
+}
+
+.subtitulo { /*a lo que se dedica, como una descripcion */
+    color: #F1A667;/*le cambie color*/
+    font-size: 24px;/*el tamaño se lo cambie a 20px*/
+    font-weight: 500; /*el grosor del subtitulo es de 500*/
+}
+
+main{/*desarrollo del perfil*/
+    font-weight:100;/*grosor mas fino de 100*/
+    padding: 15px;/*la distancia del contenido a la del borde es de 15px*/
+    border: 2px solid rgb(54, 54, 54); /*borde de 2px , solido como sin interferencias, y de ese color*/
+    background-color:black; /*fondo del main de color negro*/
+    width: 450px; /*el ancho del main*/
+    margin: auto; /*el margen lo coloque automatico*/
+    box-shadow: -1px 1px 20px 5px #1b140ea4;/*le coloque como una sobra a la "caja", el main, para que sobresalga*/
+}
+
+#informacion{ /*primer section*/
+    border: 2px solid rgb(54, 54, 54);/*le coloque borde a la primera seccion*/
+  
+    padding: 15px;
+}
+
+.perfil{ /*titulo perfil*/
+  font-size: medium;
+}
+
+.info-perfil{ /*texto de informacion*/
+    text-align: center;
+    font-size: small;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    color: rgb(183, 182, 182);
+}
+
+#parte-info-personal{ /*info personal, años activos, etc*/
+  
+    padding: 15px;
+
+}
+
+.enlace{
+    text-decoration: none;
+    color: rgb(116, 116, 116);
+}
+
+#contacto{/*segundo section*/
+    border: 2px solid rgb(54, 54, 54);
+}
+
+legend{
+    font-weight: 900;
+}
+input[type="text"],input[type="email"],textarea{
+    background-color: #444444;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%; /*para que el ancho sea mas grande*/
+}
+
+.seleccionar{
+    color: #8d8787;
+    background-color: #141413;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+option{
+    color: #494949;
+}
+
+p{
+    font-size: small
+}
+.opciones{
+    font-size: small;
+    padding: 15px;
+}
+
+fieldset{
+    border: none;
+  
+}
+#btm-contacto{
+    background-color: #F1A667;
+}
+#btm-portafolio{
+    background-color: #D4833F;
+}
+.btn{ /*botones*/
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 700;
+    color: #fff;
+    
+}
+.boton{ /*div donde tengo los button*/
+    border: 2px solid rgb(0, 0, 0);
+    padding: 15px;
+    border-top: 2px dashed rgb(54, 54, 54);
+}
+div{
+    padding: 5px;
+}
+form{
+    padding: 25px;
+}
